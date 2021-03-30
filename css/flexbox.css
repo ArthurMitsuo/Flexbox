@@ -1,0 +1,9 @@
+
+.cabecalhoPrincipal .container{ /* alinho no elemento pai para refletir nos filhos*/
+	display: flex;
+	align-items: center; /*Alinhar os elementos que estão dentro desse container flex, no centro*/
+	justify-content: space-between; /*coloca espaço entre os elementos filhos*/
+}
+.cabecalhoPrincipal-nav{
+	display: flex;
+}
